@@ -8,23 +8,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Read {
-	   //ÄãºÃ
+	   //ä½ å¥½
+	   //W-E
 		public static void main(String[] args) throws IOException{
 			read();
 		}
 		public static List<String[]> read() throws IOException{
 			List<String[]> aList=new ArrayList<String[]>();
-			File file=new File("D:\\×óE\\³ö×â³µ\\20150330track09.csv");//¸ù¾İ³éÏóÂ·¾¶Ãû´´½¨ÎÄ¼şÊµÀı
-			BufferedReader br=new BufferedReader(new FileReader(file));//FileReaderÊÇ¶ÁÈ¡×Ö·ûÎÄ¼şµÄ±ã½İÀà£¬BufferedReader´Ó×Ö·ûÊäÈëÁ÷ÖĞ»º³åÎÄ±¾
+			File file=new File("D:\\å·¦E\\å‡ºç§Ÿè½¦\\20150330track09.csv");//æ ¹æ®æŠ½è±¡è·¯å¾„ååˆ›å»ºæ–‡ä»¶å®ä¾‹
+			BufferedReader br=new BufferedReader(new FileReader(file));//FileReaderæ˜¯è¯»å–å­—ç¬¦æ–‡ä»¶çš„ä¾¿æ·ç±»ï¼ŒBufferedReaderä»å­—ç¬¦è¾“å…¥æµä¸­ç¼“å†²æ–‡æœ¬
 			String row;
-		    while((row=br.readLine())!=null){//Ã¿Ò»´Î¶¼È¥½øĞĞÖØĞÂ¶ÁÈ¡ĞÂµÄÒ»ĞĞ
-			  String[] s =row.split(",");     //¶ººÅ·Ö¸ô
+		    while((row=br.readLine())!=null){//æ¯ä¸€æ¬¡éƒ½å»è¿›è¡Œé‡æ–°è¯»å–æ–°çš„ä¸€è¡Œ
+			  String[] s =row.split(",");     //é€—å·åˆ†éš”
 			  aList.add(s);
 		    }
-		    aList.remove(0);//³ıÈ¥´ø×ÖÄ¸µÄÄÇÒ»ĞĞ
+		    aList.remove(0);//é™¤å»å¸¦å­—æ¯çš„é‚£ä¸€è¡Œ
 		    System.out.println(aList.get(1)[0]);
 			return aList;
-			
+		
 		}
 		
 	
