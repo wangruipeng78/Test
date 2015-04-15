@@ -22,7 +22,7 @@ public class Read {
 			  aList.add(s);
 		    }
 		    aList.remove(0);//除去带字母的那一行
-		    System.out.println(aList.get(1)[2]);
+		    System.out.println(aList.get(1)[0]);
 			return aList;
 			
 		}
