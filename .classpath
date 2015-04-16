@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="src" path="map"/>
+	<classpathentry kind="src" path="java"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="D:/_work/lib/psu.jar"/>
+	<classpathentry kind="lib" path="D:/_work/lib/netCDF_toolsUI-2[1].2.22.jar"/>
+	<classpathentry kind="lib" path="D:/_work/lib/jts.jar"/>
+	<classpathentry kind="lib" path="D:/_work/lib/geotools-9.2/gt-main-9.2.jar"/>
+	<classpathentry kind="lib" path="D:/_work/lib/geotools-9.2/gt-shapefile-9.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
